@@ -9,7 +9,6 @@ import Container from 'react-bootstrap/Container';
 import Skills from './pages/skills/skills.component';
 import ProjectTimeLine from './components/project-timeline/project-timeline.component';
 import Contact from './pages/contact/contact.component';
-import FooterPanel from './components/footer/footer.component';
 
 const App = () => {
   return (
@@ -30,7 +29,7 @@ const App = () => {
                 <ProjectTimeLine/>
                 <hr />
                  <Contact/>  
-                 <FooterPanel/> 
+                 
             </Fade> 
               </Container>
     </div>

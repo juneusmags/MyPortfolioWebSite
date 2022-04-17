@@ -1,5 +1,5 @@
 import React from "react";
-import { Timeline, Events, UrlButton, ImageEvent } from "@merc/react-timeline";
+import { Timeline, Events, UrlButton, ImageEvent, createTheme, themes } from "@merc/react-timeline";
 
 
 import L_ColorGame from "../../assets/projects/colorGame.png";
@@ -26,11 +26,28 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 import "./project-timeline.style.css";
 
+
+const customTheme = createTheme(themes.default, {
+  card: {
+    backgroundColor: '#efefef',
+  },
+  date: {
+    backgroundColor: 'rebeccapurple',
+  },
+  marker: {
+    borderColor: 'rebeccapurple',
+  },
+  timelineTrack: {
+    backgroundColor: '#00fff7',
+  },
+});
+
+
 const ProjectTimeLine = () => {
   return (
     <div id="projects">
       <h1 className="pt-3 text-center font-details-b pb-3"> <strong>PROJECTS</strong></h1>
-      <Timeline>
+      <Timeline theme = {customTheme}>
         <Events>
         
         <ImageEvent

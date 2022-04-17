@@ -15,14 +15,14 @@ const Contact = () => {
           <Row>
             <Col className="d-flex justify-content-center flex-wrap">
               <div className="m-2">
-                <a href="mailto:canaycan98@gmail.com" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-danger" title="canaycan98@gmail.com">
+                <a href="mailto:jbm9397@gmail.com" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline-danger" title="jbm9397@gmail.com">
                     <i className="fas fa-envelope-square"></i> Email Me
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="https://www.linkedin.com/in/can-akt%C3%BCrk-28bb77188/" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/juneus-magsakay-21b7251b0/" target="_blank" rel="noopener noreferrer">
                   <Button variant="outline-primary" title="Visit my LinkendIn">
                     <i className="fab fa-linkedin"></i> LinkedIn
                   </Button>
@@ -30,16 +30,16 @@ const Contact = () => {
               </div>
               
               <div className="m-2">
-                <a href="https://github.com/twichorg" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-dark" title="My other projects">
+                <a href="https://github.com/juneusmags" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline-warning" title="My other projects">
                     <i className="fab fa-github-square"></i> GitHub
                   </Button>
                 </a>
               </div>
               <div className="m-2">
-                <a href="https://twitter.com/twichorg26" target="_blank" rel="noopener noreferrer">
-                  <Button variant="outline-info" title="Tweets are welcomed!">
-                    <i className="fab fa-twitter"></i> Twitter
+                <a href="https://www.instagram.com/uraveragecoder/" target="_blank" rel="noopener noreferrer">
+                  <Button variant="outline-info" title="Follow Me!">
+                    <i className="fab fa-instagram"></i> Instagram
                   </Button>
                 </a>
               </div>

@@ -32,16 +32,16 @@ const TitleMessage = () => (
     <div className="titleMessage">
       <div className="heading">
         <div className="main text-center mb-3">
-          Hi, I am
+          Hello, my name is
           <br />
           <span>
-            <strong>Can AKTURK</strong>
+            <strong>Juneus Magsakay</strong>
           </span>
         </div>
         <div className="sub">
           <Typewriter
             options={{
-              strings: ["Web Developer", "Front-End Developer", "React Developer"],
+              strings: ["Developer", "Dancer", "Videographer"],
               autoStart: true,
               loop: true,
               delay: 78
