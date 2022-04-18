@@ -17,11 +17,18 @@ import L_REACT from "../../assets/img/skills/react.svg";
 import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import Image from "react-bootstrap/Image";
 import L_REDUX from "../../assets/img/skills/redux.svg";
+
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
+
+
+import L_DANCEBOOK from "../../assets/projects/Dancebook.png"
+import L_PYTHON from "../../assets/projects/python.svg"
+import L_FLASK  from "../../assets/projects/flask.svg"
+import L_SQL from "../../assets/projects/mysql-icon.svg"
 
 
 import "./project-timeline.style.css";
@@ -52,9 +59,9 @@ const ProjectTimeLine = () => {
         
         <ImageEvent
             className="text-center"
-            text="E-Commercial WebSite"
-            src={L_Commerce}
-            alt="E-Commercial WebSite"
+            text="Dancebook"
+            src={L_DANCEBOOK}
+            alt="Social Media Site"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -70,12 +77,12 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Commercial App created with React and Redux.
+                        <strong>Description:</strong> This is a social media application created with Python and Flask.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Pure and Simple Design.</li>
-                          <li>Powered by React and Redux</li>
+                          <li>Pure and Simple Design inspired by Facebook.</li>
+                          <li>Powered by Flask and MySQL</li>
                           <li>Respoisive Design</li>
                         </ul>
                         <hr />
@@ -100,29 +107,29 @@ const ProjectTimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Bootstrap
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REACT}
+                                src={L_FLASK}
                                 alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              React
+                              Flask
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_REDUX}
+                                src={L_SQL}
                                 alt="Redux"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Redux
+                              MySQL
                             </span>
                           </li>
                           
@@ -134,16 +141,16 @@ const ProjectTimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/twichorg/commerce-app"
+                  href="https://github.com/juneusmags/dance_app_2"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:6732661318387691520/"
+                  href="http://34.230.81.250/"
                   target="_blank"
                 >
-                  Watch Video
+                  Live Site
                 </UrlButton>
               </div>
             </div>
@@ -151,100 +158,12 @@ const ProjectTimeLine = () => {
 
 
 
-<ImageEvent
-            className="text-center"
-            text="Covid19 WebSite"
-            src={L_Covid19}
-            alt="Covid App"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This app used to React and Material-UI.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Simple Graphic Design.</li>
-                          <li>Real-time API calls with Backend features</li>
-                          <li>Styled with  Material-UI</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              React
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Node.js
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_MATERIALUI}
-                                alt="Material-UI"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              Material-UI
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/twichorg/CovidApp"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-              <UrlButton
-                href="http://coviduniversal.com/"
-                target="_blank"
-              >
-                See Live
-              </UrlButton>
-            </div>
-            </div>
-          </ImageEvent>
 
           <ImageEvent
             className="text-center"
-            text="ColorGame"
+            text="VintageOnline"
             src={L_ColorGame}
-            alt="ColorGame"
+            alt="VintageOnline"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -260,11 +179,13 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This app used to basic html,css,javascript. 
+                        <strong>Description:</strong> This is and E-Commerce Site that utilizes React and MongoDB. 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Match the any color box.</li>
+                          <li>Powered by React and Redux</li>
+                          <li>Uses MongoDB for the backend</li>
+                          <li>Designed with Bootstrap for a fluid user experience</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -277,7 +198,7 @@ const ProjectTimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              HTML5
+                              React
                             </span>
                           </li>
                           <li>
@@ -288,7 +209,7 @@ const ProjectTimeLine = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              CSS3
+                              Bootstrap
                             </span>
                           </li>
                           <li>
