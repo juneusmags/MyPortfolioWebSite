@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 import Slide1 from '../../assets/resimler/macbook.jpg'
 import Slide2 from '../../assets/resimler/studio.jpeg'
 import Slide3 from  '../../assets/resimler/cameralens.jpg';
-import ScrollDown from '../../components/scroll-down/scroll-down.component';
+
 
 
 const MyCarousal = () => {

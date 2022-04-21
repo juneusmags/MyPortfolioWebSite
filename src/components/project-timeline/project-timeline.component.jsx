@@ -20,15 +20,18 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
-import L_BOOTSTRAP4 from "../../assets/img/skills/bootstrap-4.svg";
+import L_BOOTSTRAP from "../../assets/projects/bootstrap-5-1.svg";
 import L_GIT from "../../assets/img/skills/github-api.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 
 
 import L_DANCEBOOK from "../../assets/projects/Dancebook.png"
+import L_JUPITER from "../../assets/projects/JupiterPay.png"
+import L_VINTAGE from "../../assets/projects/Vintage.png"
 import L_PYTHON from "../../assets/projects/python.svg"
 import L_FLASK  from "../../assets/projects/flask.svg"
 import L_SQL from "../../assets/projects/mysql-icon.svg"
+import L_MONGO from "../../assets/projects/mongodb-icon.svg"
 
 
 import "./project-timeline.style.css";
@@ -77,7 +80,7 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a social media application created with Python and Flask.
+                        <strong>Description:</strong> This is a social media application where you can share your ideas with the world!
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -102,7 +105,7 @@ const ProjectTimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_BOOTSTRAP}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
@@ -162,7 +165,7 @@ const ProjectTimeLine = () => {
           <ImageEvent
             className="text-center"
             text="VintageOnline"
-            src={L_ColorGame}
+            src={L_VINTAGE}
             alt="VintageOnline"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
@@ -179,7 +182,7 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is and E-Commerce Site that utilizes React and MongoDB. 
+                        <strong>Description:</strong> This is an online thrift store that allows users to easily sell/buy vintage products. 
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
@@ -193,7 +196,7 @@ const ProjectTimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_HTML5}
+                                src={L_REACT}
                                 alt="HTML 5"
                                 rounded
                                 className="image-style m-1"
@@ -204,7 +207,7 @@ const ProjectTimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
+                                src={L_BOOTSTRAP}
                                 alt="CSS 3"
                                 rounded
                                 className="image-style m-1"
@@ -215,12 +218,12 @@ const ProjectTimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_GIT}
+                                src={L_MONGO}
                                 alt="Github API"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              GitHub API
+                              MongoDB
                             </span>
                           </li>
                         </ul>
@@ -231,16 +234,16 @@ const ProjectTimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/twichorg/ColorGame"
+                  href="https://github.com/juneusmags/vintage_online_2"
                   target="_blank"
                 >
-                  SOURCE CODE
+                  Source Code
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:6732663106780172288/"
+                  href="http://vintageonlineapp.herokuapp.com/"
                   target="_blank"
                 >
-                  WATCH VIDEO
+                  Live Site
                 </UrlButton>
               </div>
             </div>
@@ -249,9 +252,9 @@ const ProjectTimeLine = () => {
          
           <ImageEvent
             className="text-center"
-            text="New Years App"
-            src={L_NewsYearsApp}
-            alt="New Years App"
+            text="JupiterPay"
+            src={L_JUPITER}
+            alt="Budget App"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -267,11 +270,12 @@ const ProjectTimeLine = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> An app that show the new years.
+                        <strong>Description:</strong> A simple way to manage your terrible spending habits.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
-                          <li>Dynamic years the showed.</li>
+                          <li>Add, edit, and delete expenses</li>
+                          <li>Utilizes users local storage to store temporary data</li>
                         </ul>
                         <hr />
                         <strong>Tech used:</strong>
@@ -279,34 +283,23 @@ const ProjectTimeLine = () => {
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_NODE_JS}
-                                alt="Node.js"
+                                src={L_REACT}
+                                alt="React"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              Node.js
+                              React
                             </span>
                           </li>
                           <li>
                             <span className="p-2">
                               <Image
-                                src={L_CSS3}
-                                alt="CSS"
+                                src={L_BOOTSTRAP}
+                                alt="Bootstrap"
                                 rounded
                                 className="image-style1 m-1"
                               ></Image>{" "}
-                              CSS
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML5"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              HTML5
+                              Bootstrap
                             </span>
                           </li>
                         </ul>
@@ -318,274 +311,24 @@ const ProjectTimeLine = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://github.com/twichorg/NewYearApp"
+                  href="https://github.com/juneusmags/jupiterpay"
                   target="_blank"
                 >
                   SOURCE CODE
                 </UrlButton>
                 <UrlButton
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:6732665919719530497/"
+                  href="https://unruffled-jang-b98285.netlify.app/"
                   target="_blank"
                 >
-                  WATCH VIDEO
+                  Live Site
                 </UrlButton>
               </div>
             </div>
           </ImageEvent>
 
          
-
-          <ImageEvent
-            className="text-center"
-            text="LolMemoryGame"
-            src={L_LolMemoryGame}
-            alt="LolMemoryGame"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> An app that classic memory game but a added the legaue of legends theme and design.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Click the cards and try to match any same card.</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/twichorg/-League-of-Legends-Memory-Card-Game"
-                  target="_blank"
-                >
-                SOURCE CODE
-                </UrlButton>
-                <UrlButton
-                  href="https://www.linkedin.com/feed/update/urn:li:activity:6732667615795404800/"
-                  target="_blank"
-                >
-                  Watch Video
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
 
           
-
-          <ImageEvent
-            className="text-center"
-            text="RockPaperGmae"
-            src={L_RockPaperGmae}
-            alt="RockPaperGmae"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> This website is classical RockPaperGmae website.Used to pure javascript ande dom.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Click the button</li>
-                          <li>Random generate Rock Paper Scissors </li>
-                          <li>Try to won that score.</li>
-                         
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_GIT}
-                                alt="PostgreSQL"
-                                rounded
-                                className="image-style1 m-1"
-                              ></Image>{" "}
-                              GIT
-                            </span>
-                          </li>
-                        </ul>
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton
-                  href="https://github.com/twichorg/RockPaperScissorGame"
-                  target="_blank"
-                >
-                  SOURCE CODE
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
-
-          {/* Project: Portfolio using Django */}
-          <ImageEvent
-            className="text-center"
-            text="MovieSeat"
-            src={L_MovieSeat}
-            alt="MovieSeat"
-          >
-            <div className="d-flex justify-content-between flex-column mt-1">
-              <div>
-                <Accordion>
-                  <Card>
-                    <Accordion.Toggle
-                      as={Card.Header}
-                      eventKey="0"
-                      className="p-2 text-center accordian-main"
-                    >
-                      PROJECT DETAILS
-                    </Accordion.Toggle>
-
-                    <Accordion.Collapse eventKey="0" className="text-left">
-                      <Card.Body>
-                        <strong>Description:</strong> I used to pure javascript and css.
-                        <hr />
-                        <strong>Features:</strong>
-                        <ul className="list-styles pt-1">
-                          <li>Select to filmç</li>
-                          <li>Select to seat</li>
-                          <li>Watch the cinema</li>
-                        </ul>
-                        <hr />
-                        <strong>Tech used:</strong>
-                        <ul>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_HTML5}
-                                alt="HTML 5"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              HTML5
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_CSS3}
-                                alt="CSS 3"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              CSS3
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_BOOTSTRAP4}
-                                alt="Bootstrap 4"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
-                              Bootstrap 4
-                            </span>
-                          </li>
-                        </ul>
-                        <hr />
-                      </Card.Body>
-                    </Accordion.Collapse>
-                  </Card>
-                </Accordion>
-              </div>
-              <div className="d-flex justify-content-between flex-nowrap text-center">
-                <UrlButton href="https://www.linkedin.com/feed/update/urn:li:activity:6732671170954567680/" target="_blank">
-                  WATCH VIDEO
-                </UrlButton>
-                <UrlButton href="https://github.com/twichorg/MovieSeatTicket-App" target="_blank">
-                 Source Code
-                </UrlButton>
-              </div>
-            </div>
-          </ImageEvent>
         </Events>
       </Timeline>
     </div>
