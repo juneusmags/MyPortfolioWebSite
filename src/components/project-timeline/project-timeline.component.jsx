@@ -2,33 +2,18 @@ import React from "react";
 import { Timeline, Events, UrlButton, ImageEvent, createTheme, themes } from "@merc/react-timeline";
 
 
-import L_ColorGame from "../../assets/projects/colorGame.png";
-import L_Covid19 from "../../assets/projects/Covid19.png";
-import L_Commerce from "../../assets/projects/e-commerce.png";
-import L_RockPaperGmae from "../../assets/projects/RockPaper.png";
-import L_LolMemoryGame from "../../assets/projects/LolMemoryGame.png";
-import L_MovieSeat from "../../assets/projects/MoevieSeat.png";
-import L_NewsYearsApp from "../../assets/projects/newYearApp.png";
+
+
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
-
-
 import L_REACT from "../../assets/img/skills/react.svg";
-import L_NODE_JS from "../../assets/img/skills/nodejs.svg";
 import Image from "react-bootstrap/Image";
-import L_REDUX from "../../assets/img/skills/redux.svg";
-
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
-import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_BOOTSTRAP from "../../assets/projects/bootstrap-5-1.svg";
-import L_GIT from "../../assets/img/skills/github-api.svg";
-import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
-
-
 import L_DANCEBOOK from "../../assets/projects/Dancebook.png"
 import L_JUPITER from "../../assets/projects/JupiterPay.png"
 import L_VINTAGE from "../../assets/projects/Vintage.png"
-import L_PYTHON from "../../assets/projects/python.svg"
+
 import L_FLASK  from "../../assets/projects/flask.svg"
 import L_SQL from "../../assets/projects/mysql-icon.svg"
 import L_MONGO from "../../assets/projects/mongodb-icon.svg"
@@ -56,7 +41,7 @@ const customTheme = createTheme(themes.default, {
 const ProjectTimeLine = () => {
   return (
     <div id="projects">
-      <h1 className="pt-3 text-center font-details-b pb-3"> <strong>PROJECTS</strong></h1>
+      <h1 className="pt-3 text-center font-details-b pb-3"> <strong>Projects</strong></h1>
       <Timeline theme = {customTheme}>
         <Events>
         
@@ -75,7 +60,7 @@ const ProjectTimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      Project Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -177,7 +162,7 @@ const ProjectTimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      Project Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
@@ -265,7 +250,7 @@ const ProjectTimeLine = () => {
                       eventKey="0"
                       className="p-2 text-center accordian-main"
                     >
-                      PROJECT DETAILS
+                      Project Details
                     </Accordion.Toggle>
 
                     <Accordion.Collapse eventKey="0" className="text-left">
